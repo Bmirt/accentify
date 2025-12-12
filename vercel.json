@@ -1,6 +1,6 @@
 {
   "buildCommand": "npm run build:vercel",
-  "outputDirectory": "dist/utell-clone",
+  "outputDirectory": "dist/accentify-final",
   "devCommand": "npm start",
   "framework": "angular",
   "rewrites": [
