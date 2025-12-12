@@ -1,0 +1,454 @@
+<div class="app-container">
+  <!-- Header -->
+  <header class="header" @fadeIn>
+    <nav class="nav">
+      <div class="logo">
+        <img src="assets/logo.svg" alt="Accentify" class="logo-img" />
+        <span class="logo-text">Accentify</span>
+        <span class="logo-dot">.</span>
+      </div>
+      <div class="nav-links">
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#use-cases" class="nav-link">Use Cases</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" @fadeIn>
+    <div class="hero-content">
+      <div class="hero-text" @fadeInUp>
+        <h1 class="hero-title">AI Accent Conversion Software</h1>
+        <p class="hero-description">
+          Add a local flair to your English with Accentify's personalized accent
+          neutralizer tool, easily connect and make every conversation pop!
+        </p>
+        <div class="hero-buttons">
+          <button class="btn-primary-large" @scaleIn>Coming Soon</button>
+        </div>
+      </div>
+      <div class="hero-visual" @slideInRight>
+        <div class="floating-card" [@float]="floatState">
+          <div class="card-content">
+            <div class="card-icon">🎤</div>
+            <h3>Real-time</h3>
+            <p>Instant accent conversion</p>
+          </div>
+        </div>
+        <div class="floating-card delay-1" [@float]="floatState">
+          <div class="card-content">
+            <div class="card-icon">🔊</div>
+            <h3>Crystal Clear</h3>
+            <p>Enhanced sound quality</p>
+          </div>
+        </div>
+        <div class="floating-card delay-2" [@float]="floatState">
+          <div class="card-content">
+            <div class="card-icon">🌍</div>
+            <h3>Multi-Language</h3>
+            <p>Works with any accent</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features" @fadeIn>
+    <div class="container">
+      <div class="section-header" @fadeInUp>
+        <h2 class="section-title">
+          Powerful Accent Conversion Features to Level Up Your English Skills
+        </h2>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card" @slideInLeft>
+          <div class="feature-icon">🎤</div>
+          <h3>Real-time Accent Conversion</h3>
+          <p>
+            Accent Conversion improves communication for customers and students
+            by gently reducing strong accents while keeping the speaker's
+            original voice intact, ensuring both clarity and a genuine, personal
+            touch in every conversation.
+          </p>
+        </div>
+        <div class="feature-card" @fadeInUp>
+          <div class="feature-icon">🔇</div>
+          <h3>Noise Cancellation</h3>
+          <p>
+            Accentify Noise Cancellation wipes out background chatter and chaos
+            instantly, making your calls crystal clear and distraction-free in
+            real-time.
+          </p>
+        </div>
+        <div class="feature-card" @slideInRight>
+          <div class="feature-icon">🔊</div>
+          <h3>Improve Sound Quality</h3>
+          <p>
+            When Accentify refines your accent, it also boosts speech clarity
+            making every word sharper, smoother, and more pleasant to hear.
+          </p>
+        </div>
+        <div class="feature-card" @slideInLeft>
+          <div class="feature-icon">🌐</div>
+          <h3>Live Translator</h3>
+          <p>
+            Accentify Live Translator instantly transforms your speech into
+            fluent, standard English seamlessly bridging accents and languages
+            in real time for effortless understanding.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Useful Tools Section -->
+  <section id="tools" class="useful-tools" @fadeIn>
+    <div class="container">
+      <div class="section-header" @fadeInUp>
+        <h2 class="section-title">Powerful Tools On Browsers</h2>
+      </div>
+      <div class="tools-grid">
+        <div class="tool-card" @scaleIn>
+          <div class="tool-icon">🔮</div>
+          <h3>Accent Oracle</h3>
+          <p>
+            Speak naturally for a few seconds, then let Accentify Accent Oracle
+            unveil your accent with pinpoint precision. It's like a voice mirror
+            instantly revealing where your unique sound comes from!
+          </p>
+        </div>
+        <div class="tool-card" @scaleIn>
+          <div class="tool-icon">🎧</div>
+          <h3>Audio Translator</h3>
+          <p>
+            Record or upload audio effortlessly, and Accentify instantly
+            transcribes it into accurate, translated text.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Use Cases Section -->
+  <section id="use-cases" class="use-cases" @fadeIn>
+    <div class="container">
+      <div class="section-header" @fadeInUp>
+        <h2 class="section-title">
+          Standout Accent Filter to Support Your Different Scenarios
+        </h2>
+      </div>
+      <div class="use-cases-grid">
+        <div class="use-case-card" @scaleIn>
+          <div class="use-case-icon">💼</div>
+          <h3>Sales and Success</h3>
+          <p class="use-case-subtitle">
+            Break Accent Barrier for Successful Selling
+          </p>
+          <p>
+            Accentify breaks accent barriers, turning every pitch into clear,
+            confident communication helping you connect instantly, build trust,
+            and close deals with global clients effortlessly.
+          </p>
+        </div>
+        <div class="use-case-card" @scaleIn>
+          <div class="use-case-icon">🎮</div>
+          <h3>Streaming and Content Creation</h3>
+          <p class="use-case-subtitle">
+            Command the Game with Sharp, Crystal-clear Accent
+          </p>
+          <p>
+            Break through accent barriers speak in clear, standard English
+            during team chats to level up your gameplay, sharpen strategy, and
+            stream like a pro.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Integration Section -->
+  <section class="integrations" @fadeIn>
+    <div class="container">
+      <div class="section-header" @fadeInUp>
+        <h2 class="section-title">
+          How to Use Accentify in Your Daily Communication?
+        </h2>
+        <p class="section-description">
+          Accentify will support all your favourite apps
+        </p>
+      </div>
+      <div class="integrations-grid" @fadeInUp>
+        <div class="integration-logo">
+          <img
+            src="assets/app-logos/zoom.svg"
+            alt="Zoom"
+            class="app-logo-img"
+          />
+          <span>Zoom</span>
+        </div>
+        <div class="integration-logo">
+          <img
+            src="assets/app-logos/google-meet.svg"
+            alt="Google Meet"
+            class="app-logo-img"
+          />
+          <span>Google Meet</span>
+        </div>
+
+        <div class="integration-logo">
+          <img
+            src="assets/app-logos/whatsapp.svg"
+            alt="WhatsApp"
+            class="app-logo-img"
+          />
+          <span>WhatsApp</span>
+        </div>
+        <div class="integration-logo">
+          <img
+            src="assets/app-logos/viber.svg"
+            alt="Viber"
+            class="app-logo-img"
+          />
+          <span>Viber</span>
+        </div>
+        <div class="integration-logo">
+          <img
+            src="assets/app-logos/teamspeak.svg"
+            alt="TeamSpeak"
+            class="app-logo-img"
+          />
+          <span>TeamSpeak</span>
+        </div>
+        <div class="integration-logo">
+          <img
+            src="assets/app-logos/messenger.svg"
+            alt="Messenger"
+            class="app-logo-img"
+          />
+          <span>Messenger</span>
+        </div>
+        <div class="integration-logo">
+          <img
+            src="assets/app-logos/telegram.svg"
+            alt="Telegram"
+            class="app-logo-img"
+          />
+          <span>Telegram</span>
+        </div>
+        <div class="integration-logo">
+          <img
+            src="assets/app-logos/discord.svg"
+            alt="Discord"
+            class="app-logo-img"
+          />
+          <span>Discord</span>
+        </div>
+        <div class="integration-logo">
+          <img
+            src="assets/app-logos/steam.svg"
+            alt="Steam"
+            class="app-logo-img"
+          />
+          <span>Steam</span>
+        </div>
+        <div class="integration-logo">
+          <img
+            src="assets/app-logos/twitch.svg"
+            alt="Twitch"
+            class="app-logo-img"
+          />
+          <span>Twitch</span>
+        </div>
+        <div class="integration-logo">
+          <img
+            src="assets/app-logos/roblox.svg"
+            alt="Roblox"
+            class="app-logo-img"
+          />
+          <span>Roblox</span>
+        </div>
+        <div class="integration-logo">
+          <img
+            src="assets/app-logos/youtube.svg"
+            alt="YouTube"
+            class="app-logo-img"
+          />
+          <span>YouTube</span>
+        </div>
+        <div class="integration-logo">
+          <img src="assets/app-logos/obs.svg" alt="OBS" class="app-logo-img" />
+          <span>OBS</span>
+        </div>
+        <div class="integration-logo">
+          <img
+            src="assets/app-logos/twilio.svg"
+            alt="Twilio"
+            class="app-logo-img"
+          />
+          <span>Twilio</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Coming Soon Section -->
+  <section class="coming-soon" @fadeIn>
+    <div class="container">
+      <div class="coming-soon-content" @scaleIn>
+        <div class="coming-soon-icon">🚀</div>
+        <h2 class="coming-soon-title">Coming Soon</h2>
+        <p class="coming-soon-description">
+          We're working hard to bring you an amazing accent filter experience.
+          Stay tuned for updates!
+        </p>
+        <div class="coming-soon-features">
+          <div class="coming-soon-feature">
+            <span class="feature-check">✓</span>
+            <span>Real-time accent conversion</span>
+          </div>
+          <div class="coming-soon-feature">
+            <span class="feature-check">✓</span>
+            <span>Multi-platform support</span>
+          </div>
+          <div class="coming-soon-feature">
+            <span class="feature-check">✓</span>
+            <span>Advanced noise cancellation</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq" @fadeIn>
+    <div class="container">
+      <div class="section-header" @fadeInUp>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item" @fadeInUp>
+          <h3 class="faq-question">How to use Accentify?</h3>
+          <p class="faq-answer">
+            Accentify is currently under active development. We're working hard
+            to bring you the best accent conversion experience. Stay tuned for
+            updates. We'll notify you as soon as we launch!
+          </p>
+        </div>
+        <div class="faq-item" @fadeInUp>
+          <h3 class="faq-question">Does Accentify work with...?</h3>
+          <p class="faq-answer">
+            We're developing Accentify to work with various online chatting and
+            virtual meeting platforms. Our planned integrations include Zoom,
+            Google Meet, Microsoft Teams, Slack, WhatsApp, Discord, and many
+            more. These integrations are currently in development and will be
+            available upon launch. Accentify will support use cases such as:
+            sales interactions, gaming voice chat, content creation, and
+            pronunciation improvement.
+          </p>
+        </div>
+        <div class="faq-item" @fadeInUp>
+          <h3 class="faq-question">
+            What languages and accents do you support?
+          </h3>
+          <p class="faq-answer">
+            We're developing support for the English language initially, with
+            plans to expand to more languages in future updates. For English
+            accents, we're working on support for Indian, Pakistani, Georgian
+            and other accents. The final list of supported languages and accents
+            will be announced closer to launch.
+          </p>
+        </div>
+        <div class="faq-item" @fadeInUp>
+          <h3 class="faq-question">
+            Is it okay to use Accentify even if my English pronunciation is
+            poor?
+          </h3>
+          <p class="faq-answer">
+            Absolutely! We believe there is no "poor pronunciation". It's
+            vitally important for users to retain their native accents. The
+            Accentify system we're developing will allow users to speak
+            naturally, and it will modulate accents for clarity while preserving
+            your unique voice characteristics.
+          </p>
+        </div>
+        <div class="faq-item" @fadeInUp>
+          <h3 class="faq-question">
+            Does Accentify only change accents, or can it translate too?
+          </h3>
+          <p class="faq-answer">
+            We're developing Accentify to do both! Our planned features include
+            accent neutralization for global clarity as well as real-time
+            translation capabilities. The translation feature will transform
+            your speech into multiple languages instantly, making cross-language
+            meetings effortless. These features are currently in development.
+          </p>
+        </div>
+        <div class="faq-item" @fadeInUp>
+          <h3 class="faq-question">
+            How is Accentify different from regular translation apps?
+          </h3>
+          <p class="faq-answer">
+            Unlike text-based translators, Accentify is being developed to
+            operate in real time and focus on spoken communication. It will work
+            directly in your live calls or streams, maintaining natural voice
+            flow without awkward pauses or robotic tones. This real-time
+            processing capability is a key focus of our development efforts.
+          </p>
+        </div>
+        <div class="faq-item" @fadeInUp>
+          <h3 class="faq-question">When will Accentify be available?</h3>
+          <p class="faq-answer">
+            Accentify is currently under active development, and we're making
+            great progress. While we don't have an exact launch date yet, we're
+            committed to delivering a high-quality product.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" @fadeIn>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <div class="logo">
+            <img src="assets/logo.svg" alt="Accentify" class="logo-img" />
+            <span class="logo-text">Accentify</span>
+            <span class="logo-dot">.</span>
+          </div>
+          <p class="footer-description">
+            The future of accent-neutralized communication is here.
+          </p>
+        </div>
+        <div class="footer-section">
+          <h4>Features</h4>
+          <ul>
+            <li><a href="#features">Real-time Accent Conversion</a></li>
+            <li><a href="#features">Noise Cancellation</a></li>
+            <li><a href="#features">Improve Sound Quality</a></li>
+            <li><a href="#features">Live Translator</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Use Cases</h4>
+          <ul>
+            <li><a href="#use-cases">Sales and Success</a></li>
+            <li><a href="#use-cases">Games and Streaming</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Useful Tools</h4>
+          <ul>
+            <li><a href="#tools">Accent Oracle</a></li>
+            <li><a href="#tools">Audio Translator</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Accentify. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</div>
